@@ -52,12 +52,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code.txt">
+    <Content Include="Code.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
-    <Compile Include="Ribs.txt">
+    </Content>
+    <Content Include="Ribs.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
