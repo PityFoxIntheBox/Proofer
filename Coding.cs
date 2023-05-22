@@ -47,7 +47,8 @@ namespace Proofer
             }
             foreach(int i in Proof) 
             {
-               File.AppendAllText(path2, Convert.ToString(i) + " ");
+                Console.WriteLine(i + " ");
+                //File.AppendAllText(path2, Convert.ToString(i) + " ");
             }
         }
     }
