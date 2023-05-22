@@ -45,9 +45,10 @@ namespace Proofer
                     Ribsu[index] = 0;
                 }
             }
+            Console.WriteLine("Код Прюфера:");
             foreach(int i in Proof) 
             {
-                Console.WriteLine(i + " ");
+                Console.Write(i + " ");
                 //File.AppendAllText(path2, Convert.ToString(i) + " ");
             }
         }

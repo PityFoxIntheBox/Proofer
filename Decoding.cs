@@ -51,6 +51,8 @@ namespace Proofer
                 Code[i] = 0;
             }
             Ribs.Add($"{LastCode} {LastPeak}");
+            Console.WriteLine();
+            Console.WriteLine("Список рёбер:");
             foreach(string s in Ribs)
             {
                 Console.WriteLine(s);
